@@ -1,0 +1,10 @@
+<Panel ux:Class="MyButton" ux:Name="self">
+  <string ux:Property="Text" ux:Value="MyButton" />
+  <float4 ux:Property="CornerRadius" ux:Value="0" />
+  <float4 ux:Property="BackgroundColor" ux:Value="#f00" />
+  <float4 ux:Property="TextColor" ux:Value="#000" />
+  <Text Alignment="Center" TextColor="{Property self.TextColor}" Value="{Property self.Text}"/>
+  <Rectangle Layer="Background" CornerRadius="{Property self.CornerRadius}">
+    <SolidColor Color="{Property self.BackgroundColor}"/>
+  </Rectangle>
+</Panel>

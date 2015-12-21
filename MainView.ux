@@ -1,0 +1,6 @@
+<App Theme="Basic">
+
+    <MyButton CornerRadius="20" Text="MyText" TextColor="#fff"
+              BackgroundColor="#5C6BC0 " Width="200" Height="50"/>
+</App>
+
